@@ -273,7 +273,7 @@ function initializeCharts() {
         yaxis: {
             labels: {
                 formatter: function(value) {
-                    return '$' + (value / 1000) + 'k';
+                    return 'KSH ' + (value / 1000) + 'k';
                 }
             }
         }

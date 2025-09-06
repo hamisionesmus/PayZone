@@ -69,7 +69,7 @@ function requireAuth() {
 }
 
 function formatCurrency($amount) {
-    return '$' . number_format($amount, 2);
+    return 'KSH ' . number_format($amount, 2);
 }
 
 function formatDate($date) {

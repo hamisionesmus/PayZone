@@ -344,7 +344,7 @@ require_once '../../includes/header.php';
                                         <div class="col-md-6">
                                             <label for="currency" class="form-label">Currency</label>
                                             <select class="form-select" id="currency" name="currency">
-                                                <option value="USD">USD ($)</option>
+                                                <option value="KSH">KSH (KSH)</option>
                                                 <option value="EUR">EUR (€)</option>
                                                 <option value="GBP">GBP (£)</option>
                                                 <option value="JPY">JPY (¥)</option>

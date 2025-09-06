@@ -217,9 +217,9 @@ function showLoading(button) {
 }
 
 function formatCurrency(amount) {
-    return new Intl.NumberFormat('en-US', {
-        style: 'currency',
-        currency: 'USD'
+    return 'KSH ' + new Intl.NumberFormat('en-KE', {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
     }).format(amount);
 }
 

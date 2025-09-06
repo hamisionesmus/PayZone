@@ -286,13 +286,13 @@ class PayslipService
             $pageContent .= "0 -20 Td\n";
             $pageContent .= "(Employee ID: " . str_pad($employee->id, 6, '0', STR_PAD_LEFT) . ") Tj\n";
             $pageContent .= "0 -20 Td\n";
-            $pageContent .= "(Basic Salary: KSh " . number_format($employee->salary, 2) . ") Tj\n";
+            $pageContent .= "(Basic Salary: KSH " . number_format($employee->salary, 2) . ") Tj\n";
             $pageContent .= "0 -15 Td\n";
-            $pageContent .= "(Gross Pay: KSh " . number_format($payslip->gross_pay, 2) . ") Tj\n";
+            $pageContent .= "(Gross Pay: KSH " . number_format($payslip->gross_pay, 2) . ") Tj\n";
             $pageContent .= "0 -15 Td\n";
-            $pageContent .= "(Deductions: KSh " . number_format($payslip->deductions_total, 2) . ") Tj\n";
+            $pageContent .= "(Deductions: KSH " . number_format($payslip->deductions_total, 2) . ") Tj\n";
             $pageContent .= "0 -15 Td\n";
-            $pageContent .= "(NET PAY: KSh " . number_format($payslip->net_pay, 2) . ") Tj\n";
+            $pageContent .= "(NET PAY: KSH " . number_format($payslip->net_pay, 2) . ") Tj\n";
             $pageContent .= "ET\n";
 
             $content .= "$objectNumber 0 obj\n";

@@ -164,7 +164,7 @@ require_once '../../includes/header.php';
                         <div class="col-md-6">
                             <label for="salary" class="form-label">Salary *</label>
                             <div class="input-group">
-                                <span class="input-group-text">$</span>
+                                <span class="input-group-text">KSH</span>
                                 <input type="number" class="form-control" id="salary" name="salary" step="0.01" required>
                             </div>
                         </div>
@@ -311,7 +311,7 @@ require_once '../../includes/header.php';
                         <div class="col-md-6">
                             <label for="editSalary" class="form-label">Salary *</label>
                             <div class="input-group">
-                                <span class="input-group-text">$</span>
+                                <span class="input-group-text">KSH</span>
                                 <input type="number" class="form-control" id="editSalary" name="salary" step="0.01" required>
                             </div>
                         </div>
