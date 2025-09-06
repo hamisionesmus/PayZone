@@ -247,7 +247,7 @@ require_once '../../includes/header.php';
                             <div class="card-body">
                                 <h6 class="card-title">Compensation</h6>
                                 <div class="mb-2">
-                                    <i class="fas fa-dollar-sign me-2 text-success"></i>
+                                    <i class="fas fa-money-bill-wave me-2 text-success"></i>
                                     <strong>Salary:</strong> <span id="viewEmployeeSalary">-</span>
                                 </div>
                             </div>

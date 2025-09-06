@@ -23,7 +23,7 @@ require_once '../../includes/header.php';
                             <i class="fas fa-play me-2"></i>Run Payroll
                         </button>
                         <button class="btn btn-primary" onclick="generatePayslips()">
-                            <i class="fas fa-file-invoice-dollar me-2"></i>Generate Payslips
+                            <i class="fas fa-file-invoice me-2"></i>Generate Payslips
                         </button>
                     </div>
                 </div>
@@ -47,9 +47,9 @@ require_once '../../includes/header.php';
                 <div class="card chart-container">
                     <div class="card-body text-center">
                         <div class="stat-icon">
-                            <i class="fas fa-dollar-sign text-primary"></i>
+                            <i class="fas fa-money-bill-wave text-primary"></i>
                         </div>
-                        <h4 class="stat-value" id="totalAmount">$0</h4>
+                        <h4 class="stat-value" id="totalAmount">KSH 0</h4>
                         <p class="stat-label">Total Paid</p>
                     </div>
                 </div>

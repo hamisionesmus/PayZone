@@ -60,10 +60,10 @@ require_once '../../includes/header.php';
                 <div class="card kpi-card-creative h-100" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
                     <div class="card-body text-center">
                         <div class="kpi-icon-creative mx-auto">
-                            <i class="fas fa-dollar-sign"></i>
+                            <i class="fas fa-money-bill-wave"></i>
                         </div>
                         <h5 class="kpi-title-creative">Total Payroll</h5>
-                        <div class="kpi-value-creative" id="totalPayroll">$0</div>
+                        <div class="kpi-value-creative" id="totalPayroll">KSH 0</div>
                         <div class="kpi-change-creative">
                             <i class="fas fa-arrow-up text-success"></i>
                             <span>+8% from last month</span>
